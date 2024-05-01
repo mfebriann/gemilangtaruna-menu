@@ -63,8 +63,9 @@ const App = () => {
 					</div>
 				</ul>
 
-				<div className="mt-10 border-t border-slate-300 pt-6">
-					<p>Pesan secara online via WhatsApp: 0878-7537-9963</p>
+				<div className="mt-10 border-t border-slate-300 pt-6 flex gap-x-2 flex-wrap">
+					<p>Pesan secara online via WhatsApp:</p>
+					<p>0878-7537-9963</p>
 				</div>
 				<div className="text-sm text-red-600 mt-10">
 					<p>Catatan:</p>
