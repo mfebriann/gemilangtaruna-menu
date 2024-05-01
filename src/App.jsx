@@ -65,7 +65,12 @@ const App = () => {
 
 				<div className="mt-10 border-t border-slate-300 pt-6 flex gap-x-2 flex-wrap">
 					<p>Pesan secara online via WhatsApp:</p>
-					<p>0878-7537-9963</p>
+					<a
+						href="https://api.whatsapp.com/send?phone=6287875379963&text=Halo,%20saya%20mau%20pesan%20menu%20"
+						className="underline text-green-600 hover:text-green-500"
+					>
+						0878-7537-9963
+					</a>
 				</div>
 				<div className="text-sm text-red-600 mt-10">
 					<p>Catatan:</p>
